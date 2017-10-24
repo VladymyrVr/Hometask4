@@ -1,0 +1,226 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    height: auto;
+}
+.main-header {
+    padding: 70px 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo {
+    flex:  1 1 auto;
+    font: 400 30px/24px 'Inconsolata', monospace;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.main-nav {
+    flex:  1 1 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list li {
+    list-style: none;
+
+}
+.nav-list a {
+    text-decoration: none;
+    color: #626262;
+    font: 400 14px/24px "Playfair Display";
+    text-transform: uppercase;
+}
+.nav-list a:hover {
+    border-bottom: 2px solid #626262;
+    opacity: 0.5;
+    padding: 5px 0;
+}
+.main-article {
+    padding-bottom: 120px;
+}
+.main-article img {
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+.main-article header {
+    padding-left: 100px;
+}
+.content-article {
+    max-width: 900px;
+    padding-left: 100px;
+}
+.article-footer {
+    display: inline-block;
+    position: relative;
+    padding-left: 100px ;
+    margin-top: 50px;
+}
+.article-footer a {
+    text-decoration: none;
+    color: #b4ad9e;
+    font: 300 14px 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+}
+.article-footer::after {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    content: "\f27a";
+    font: 16px 'FontAwesome';
+    visibility: hidden;
+}
+.article-footer:hover::after{
+    visibility: visible;
+}
+
+.category-style {
+    padding-top: 30px;
+    color: #b4ad9e;
+    font: 300 14px 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.header-article-style {
+    color: #626262;
+    font: 400 30px 'Playfair Display';
+    padding-bottom: 35px;
+}
+.content-article-style {
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display';
+}
+.wrapper-for-article {
+    width: 900px;
+    height: inherit;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.wrapper-for-article article {
+    width: 425px;
+    margin-bottom: 130px;
+}
+.subscribe-section {
+    background-color: #f0f0f0;
+    padding: 75px 0;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.subscribe-section p {
+    color: #333333;
+    font: 400 30px 'Playfair Display';
+    letter-spacing: 0.75px;
+    padding-bottom: 80px;
+}
+.subscribe-flex-wrapper {
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-flex-wrapper form {
+    width: 300px;
+}
+.subscribe-flex-wrapper button {
+    width: 32px;
+    background: url("../images/send-icon.png") no-repeat;
+    cursor: pointer;
+}
+.subscribe-section form input {
+    width: 100%;
+    background-color: #f0f0f0;
+    color: #626262;
+    font: 400 14px/24px 'Playfair Display';
+}
+.load-more-button {
+    outline: 1px solid #626262;
+    margin: 0 auto 80px auto;
+    width: 170px;
+    height: 50px;
+    background-color: white;
+    color: #626262;
+    font: 400 20px/24px 'Playfair Display';
+}
+.load-more-button:hover{
+    background-color: #626262;
+    color: white;
+    opacity: 0.9;
+}
+.main-footer {
+    height: 100px;
+    background-color: #f0f0f0;
+}
+.flex-footer-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.license {
+    font: 14px/24px 'Playfair Display';
+}
+.license .privacy {
+    padding-left: 20px;
+}
+.social-network-list li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 15px;
+}
+.follow-sn {
+    display: flex;
+}
+.follow-sn span {
+    margin-right: 20px;
+}
+i.fa {
+    font-size: 20px;
+    line-height: 22px;
+    color: #626262;
+}
+i.fa-facebook:hover {
+    color: #4267B2;
+}
+i.fa-twitter:hover {
+    color: #1DA1F2;
+}
+i.fa-instagram:hover {
+    color: #cd486b;
+}
+.music-category::after{
+    content: "\f001";
+    font: 16px 'FontAwesome';
+    visibility: hidden;
+}
+.music-category:hover::after{
+    visibility: visible;
+}
+.photodiary-category::after {
+    content: "\f030";
+    font: 16px 'FontAwesome';
+    visibility: hidden;
+}
+.photodiary-category:hover::after {
+    visibility: visible;
+}
+.lifestyle-category:after {
+    content: "\f08a";
+    font: 16px 'FontAwesome';
+    visibility: hidden;
+}
+.lifestyle-category:hover::after {
+    visibility: visible;
+}
+
